@@ -181,6 +181,7 @@ def Menu(value):
       return Welcome
 
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# This function will response to the user's input based on what menu it is on currently
 def response(command):
   global State, Page, Study_hrs, Study_mins, Repeat, Audio, Shock, Break_hrs, Break_mins  
   match command:
@@ -424,6 +425,8 @@ def response(command):
           pass
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# This function will take three measurements from the pressure sensor and find the average. This average weight will be used
+# to compare to so that it can determine it the phone is being used or if it was removed
 def calibrateWeight():
   global State, Page
   
@@ -451,6 +454,7 @@ def calibrateWeight():
     beginStudy(Weight)
 
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#This function is the Study and Break loop. It tracks how much time you have for studying and for your break time
 def beginStudy(Weight):
   global State, Page, Study_hrs, Study_mins, Repeat, Audio, Shock, Break_hrs, Break_mins, Remain_Hours, Remain_Mins, Reps
   
@@ -530,14 +534,9 @@ def beginStudy(Weight):
   Page = 0
   box.printScreen(Menu(Page))
   
-    
-
-
-
-
-
 
 #++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#Declare fuctions
 global State, Page, Study_hrs, Study_mins, Repeat, Audio, Shock, Break_hrs, Break_mins, Remain_Hours, Remain_Mins, Reps 
 State = 0
 Page = 0
@@ -556,11 +555,12 @@ Audio = True
 Shock = True
 
 box = Components.Components() 
-
+# Study Box Start up screens
 box.printScreen(Menu(-1))
 time.sleep(3)
 box.printScreen(Menu(0))
 
+# Reads in the user's button inputs and responds
 while True:
   command = box.userInput()
   

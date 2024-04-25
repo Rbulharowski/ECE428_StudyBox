@@ -1,3 +1,4 @@
+# The purpose of this file is to test if the I2C LCD driver is functional.
 import I2C_LCD_driver
 from time import *
 

@@ -1,7 +1,9 @@
+# The purpose of this file is to see if an ultrasonic senor is functional
 import RPi.GPIO as GPIO
 import time
 GPIO.setmode(GPIO.BCM)
 
+#Change this pin numbers based on which pins you use
 TRIG = 23
 ECHO = 25
 

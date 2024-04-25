@@ -1,3 +1,5 @@
+# The purpose of this file is to determine if a the Analog to Digial Converter is functional
+# and if you can get a variety of input pressures.
 import time
 import Adafruit_ADS1x15
 

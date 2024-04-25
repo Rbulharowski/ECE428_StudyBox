@@ -1,3 +1,5 @@
+#The purpose of this file is to test if a presure sensor is fully functional.
+
 #Start by importing all necessary libraries and packages 
 import RPi.GPIO as GPIO
 import time
