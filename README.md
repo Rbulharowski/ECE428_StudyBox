@@ -17,8 +17,15 @@ The following components were used for this project:
 * [Circuit Kit](https://www.amazon.com/REXQualis-Electronics-tie-Points-Breadboard-Potentiometer/dp/B073ZC68QG/ref=sr_1_25?crid=2RR9D9XPMXGCG&dib=eyJ2IjoiMSJ9.k2vYgAjJWNGKglAlIkbAgmNMmq0P2bXob5_sCJdIZxm8PLgsNSF3q-j-aqEoUoXLpasH2xtHyN09GVYIJF5s2kaD9qNVJgvc5x21AgRtgmZx1LpvD2cCPdEj4aP5_BBCvEWvrP1w42azb8rpvAM2pZEzlPuVMxKGTgSYOUIPQNkGpI80MjGloDPQArIqUBwEL1bTQHYliWt8Q0m73UW-fmFNzqzIq3foO_sz56FqohTs_K-CAz9rdKnx1KKChErPoVLJ_Tn9GEt9di7jBk8KViHbgjKBR2pjGcMqwpMMAIU.cWGdbxEce1eKIDzWOFAju_Xga7cMGkVY9jJSvgDHRZM&dib_tag=se&keywords=circuit+kit&qid=1714151326&sprefix=circuit+kit%2Caps%2C100&sr=8-25)
 
 ## Used Resources
-Various were used when making this project. All test files for the various componentes can be found [here]().
+Various were used when making this project. All test files for the various componentes can be found [here](https://github.com/Rbulharowski/ECE428_StudyBox/tree/main/Test_Files).
 * **Pressure Sensor/ADC**
 
-    This [Youtube Video](https://www.youtube.com/watch?v=SX0636jmktM&t=530s) vas used to setup the pressure sensor and ADC. In the video description they have a link to their webpage which is where the [3-D Files](https://github.com/Rbulharowski/ECE428_StudyBox/tree/main/3-D%20Printing%20Files) came from. 
+    This [Youtube Video](https://www.youtube.com/watch?v=SX0636jmktM&t=530s) was used to setup the pressure sensor and ADC. In the video description they have a link to their webpage which is where the [3-D Files](https://github.com/Rbulharowski/ECE428_StudyBox/tree/main/3-D%20Printing%20Files) came from.
+* **LCD Display**
+* **Speaker**
+
+    The [webpage](https://www.jeffgeerling.com/blog/2022/playing-sounds-python-on-raspberry-pi) was the tutorial used to get a speaker playing audio. Follow the instructions for pygame.mixer to properly install the pygame library. The [alarm audio]() was taken from this [Youtube video](https://www.youtube.com/watch?v=5nRgCabardA) and converted into an mp3.
+* **Ultrasonic Sensor**
+
+    This [Youtube Video](https://www.youtube.com/watch?v=L90WS-ptnvI&t=86s) was used to setup the ultrasonic sensor.
 ## File Summary
