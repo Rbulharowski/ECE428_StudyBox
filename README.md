@@ -22,9 +22,11 @@ Various were used when making this project. All test files for the various compo
 
     This [Youtube Video](https://www.youtube.com/watch?v=SX0636jmktM&t=530s) was used to setup the pressure sensor and ADC. In the video description they have a link to their webpage which is where the [3-D Files](https://github.com/Rbulharowski/ECE428_StudyBox/tree/main/3-D%20Printing%20Files) came from.
 * **LCD Display**
+
+    This [tutorial](https://www.circuitbasics.com/raspberry-pi-i2c-lcd-set-up-and-programming/) was used to get the LCD functioning correctly. This was the source of the I2C_LCD_driver.py file in this project. The original creator's github link is [here](https://gist.github.com/DenisFromHR/cc863375a6e19dce359d).
 * **Speaker**
 
-    The [webpage](https://www.jeffgeerling.com/blog/2022/playing-sounds-python-on-raspberry-pi) was the tutorial used to get a speaker playing audio. Follow the instructions for pygame.mixer to properly install the pygame library. The [alarm audio]() was taken from this [Youtube video](https://www.youtube.com/watch?v=5nRgCabardA) and converted into an mp3.
+    The [webpage](https://www.jeffgeerling.com/blog/2022/playing-sounds-python-on-raspberry-pi) was the tutorial used to get a speaker playing audio. Follow the instructions for pygame.mixer to properly install the pygame library. The [alarm audio](https://github.com/Rbulharowski/ECE428_StudyBox/tree/main/Audio_Files) was taken from this [Youtube video](https://www.youtube.com/watch?v=5nRgCabardA) and converted into an mp3.
 * **Ultrasonic Sensor**
 
     This [Youtube Video](https://www.youtube.com/watch?v=L90WS-ptnvI&t=86s) was used to setup the ultrasonic sensor.
