@@ -31,3 +31,6 @@ Various were used when making this project. All test files for the various compo
 
     This [Youtube Video](https://www.youtube.com/watch?v=L90WS-ptnvI&t=86s) was used to setup the ultrasonic sensor.
 ## File Summary
+The three main files that run most of this project are the I2C_LCD_driver.py, Component.py, and main.py files. The main.py file is the file that runs the project. Components.py and I2C_LCD_driver.py are both class files to control the components of this project.
+
+To get the project functioning, follow the Used Resources sections to get most things functional. Also setup 3 buttons as inputs for the studybox. Change GPIO pin locations in the Components.py file to match the pins you have connect to the Raspberry Pi. The Circuits Folder will have picture diagrams of everything that needs to be connected for this project to function. 
