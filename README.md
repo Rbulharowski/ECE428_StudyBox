@@ -17,5 +17,8 @@ The following components were used for this project:
 * [Circuit Kit](https://www.amazon.com/REXQualis-Electronics-tie-Points-Breadboard-Potentiometer/dp/B073ZC68QG/ref=sr_1_25?crid=2RR9D9XPMXGCG&dib=eyJ2IjoiMSJ9.k2vYgAjJWNGKglAlIkbAgmNMmq0P2bXob5_sCJdIZxm8PLgsNSF3q-j-aqEoUoXLpasH2xtHyN09GVYIJF5s2kaD9qNVJgvc5x21AgRtgmZx1LpvD2cCPdEj4aP5_BBCvEWvrP1w42azb8rpvAM2pZEzlPuVMxKGTgSYOUIPQNkGpI80MjGloDPQArIqUBwEL1bTQHYliWt8Q0m73UW-fmFNzqzIq3foO_sz56FqohTs_K-CAz9rdKnx1KKChErPoVLJ_Tn9GEt9di7jBk8KViHbgjKBR2pjGcMqwpMMAIU.cWGdbxEce1eKIDzWOFAju_Xga7cMGkVY9jJSvgDHRZM&dib_tag=se&keywords=circuit+kit&qid=1714151326&sprefix=circuit+kit%2Caps%2C100&sr=8-25)
 
 ## Used Resources
-Various File
+Various were used when making this project:
+* **Pressure Sensor/ADC**
+
+    This [Youtube Video](https://www.youtube.com/watch?v=SX0636jmktM&t=530s) vas used to setup the pressure sensor and ADC. In the video description they have a link to their webpage which is where the [3-D Files]()
 ## File Summary
